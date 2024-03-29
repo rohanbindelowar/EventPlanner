@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planner Vendor Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Event Vendors</h1>
+    </header>
+    <div class="container" id="vendorList">
+    </div>
+    <form id="vendorForm">
+        <input type="text" id="vendorName" placeholder="Vendor Name" required>
+        <input type="text" id="category" placeholder="Category" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="email" id="contact" placeholder="Email" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+        <input type="file" id="image" accept="image/*">
+        <input type="submit" value="Add Vendor">
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -14,9 +14,9 @@ function App() {
       <Header className='header'/>
       <Routes>
         <Route path="/EventPlanner" element={<Home />}></Route>
-        <Route path="/event" element={<Event/>}></Route>
-        <Route path="/event-planner" element={<EventPlanner />}></Route>
-        <Route path="/about" element={<About/>}></Route>
+        <Route path="/EventPlanner/event" element={<Event/>}></Route>
+        <Route path="/EventPlanner/event-planner" element={<EventPlanner />}></Route>
+        <Route path="/EventPlanner/about" element={<About/>}></Route>
       </Routes>
       <Footer/>
     </div>

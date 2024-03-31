@@ -10,19 +10,19 @@ export const Header = () => {
         <div class="container">
           <nav>
             <ul>
-              <NavLink to={"/"} >
+              <NavLink to={"EventPlanner/"} >
                 <img src={Logo} alt="logo" class="logo" />
               </NavLink>
               <li>
-                <NavLink to={"/"} className='navItem'>Home</NavLink>
+                <NavLink to={"EventPlanner/"} className='navItem'>Home</NavLink>
               </li>
               <li>
-                <NavLink to={"/event"} className="navItem">
+                <NavLink to={"/EventPlanner/event"} className="navItem">
                   Event
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/event-planner"} className="navItem">
+                <NavLink to={"EventPlanner/event-planner"} className="navItem">
                   Event Planner
                 </NavLink>
               </li>

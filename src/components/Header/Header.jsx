@@ -31,6 +31,11 @@ export const Header = () => {
                   About
                 </NavLink>
               </li>
+              <li>
+                <NavLink to={"EventPlanner/invitation"} className="navItem">
+                  Invitation
+                </NavLink>
+              </li>
 
               <form action="">
                 <input

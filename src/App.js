@@ -8,6 +8,7 @@ import About from "./Pages/About/About";
 import { Footer } from "./components/Footer/Footer";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignIn/SignIn";
+import { Invitation } from "./Pages/Invitation/Invitation";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/EventPlanner/event" element={<Event/>}></Route>
         <Route path="/EventPlanner/event-planner" element={<EventPlanner />}></Route>
         <Route path="/EventPlanner/about" element={<About/>}></Route>
+        <Route path="/EventPlanner/invitation" element={<Invitation/>}></Route>
       </Routes>
       <Footer/>
     

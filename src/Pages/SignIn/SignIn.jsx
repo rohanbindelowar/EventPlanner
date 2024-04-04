@@ -59,7 +59,7 @@ export const SignUp = () => {
         </div>
         <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required />
         <input type="password" name="password" value={formData.password} onChange={handleChange} placeholder="Create Password" required />
-        <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} placeholder="Confirm Password" required />
+        <input type="text" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} placeholder="Confirm Password" required />
         <input type="submit" value="Sign Up" />
         <p>Already have an account? <Link to="EventPlanner/login">Login here</Link></p> {/* Assuming "/login" is the route to your login page */}
       </form>

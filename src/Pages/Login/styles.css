@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
 }
 .loginForm {
+  width: 400px;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 20px;
   border-radius: 5px;

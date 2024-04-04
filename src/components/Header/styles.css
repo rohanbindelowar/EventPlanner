@@ -49,4 +49,19 @@ header {
     text-decoration: none;
     color: rgb(32, 32, 32);
  }
+
+ .signIn-btn{
+  display: flex;
+  background: #f3f3f3;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 100px;
+  text-decoration: none;
+ }
+
+ .signIn-btn:hover{
+  background: #3c5f77;
+  color: white;
+ }
  

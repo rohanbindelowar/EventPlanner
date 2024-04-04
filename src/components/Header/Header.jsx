@@ -27,7 +27,7 @@ export const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to={"/about"} className="navItem">
+                <NavLink to={"EventPlanner/about"} className="navItem">
                   About
                 </NavLink>
               </li>
@@ -39,7 +39,14 @@ export const Header = () => {
                   placeholder="Search Events..."
                 />
               </form>
+              
+              <NavLink to={"EventPlanner/signup"} className="signIn-btn">
+              SignIn / SignUp
+              </NavLink>
+            
             </ul>
+
+            
           </nav>
         </div>
       </header>

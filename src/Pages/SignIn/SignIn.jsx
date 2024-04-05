@@ -6,6 +6,7 @@ export const SignUp = () => {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
+    email:'',
     phoneNumber: '',
     password: '',
     confirmPassword: ''
@@ -57,6 +58,7 @@ export const SignUp = () => {
           <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} placeholder="First Name" required />
           <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} placeholder="Last Name" required />
         </div>
+        <input type="email" name='email' value={formData.email} onChange={handleChange} placeholder='Email' required />
         <input type="tel" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} placeholder="Phone Number" required />
         <input type="password" name="password" value={formData.password} onChange={handleChange} placeholder="Create Password" required />
         <input type="text" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} placeholder="Confirm Password" required />

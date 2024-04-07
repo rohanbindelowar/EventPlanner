@@ -9,6 +9,7 @@ import { Footer } from "./components/Footer/Footer";
 import Login from "./Pages/Login/Login";
 import SignUp from "./Pages/SignIn/SignIn";
 import { Invitation } from "./Pages/Invitation/Invitation";
+import { Vendor } from "./Pages/Vendor/Vendor";
 
 function App() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function App() {
         <Route path="/EventPlanner" element={<Home />}></Route>
         <Route path="/EventPlanner/event" element={<Event/>}></Route>
         <Route path="/EventPlanner/event-planner" element={<EventPlanner />}></Route>
+        <Route path="/EventPlanner/vendor" element={<Vendor/>}></Route>
         <Route path="/EventPlanner/about" element={<About/>}></Route>
         <Route path="/EventPlanner/invitation" element={<Invitation/>}></Route>
       </Routes>

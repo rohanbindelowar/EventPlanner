@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <div>
         <footer>
-      <div class="container">
+      <div>
         <p>&copy; 2024 Event Planner App. All rights reserved.</p>
       </div>
     </footer>

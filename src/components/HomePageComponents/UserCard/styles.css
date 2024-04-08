@@ -8,19 +8,21 @@
   
   .user-cards {
     display: flex;
+    justify-content: space-around;
     margin-top: 30px;
-  }
+      }
   
   .user-card {
     background-image: url(../../../images/png/logo-black.png);
     background-size: contain;
     background-repeat: no-repeat;
+    text-decoration: none;
     padding: 15px;
     padding-top: 0;
     border-radius: 10px;
     text-align: right;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: calc(33% - 15px);
+    width: calc(33% - 25px);
     margin-bottom: 23px;
     transition: transform 0.3s ease;
     box-sizing: border-box;
@@ -29,8 +31,7 @@
   
   @media screen and (max-width: 1024px) {
     .user-card {
-      width: calc(50% - 20px); /* Two cards in a row for smaller screens */
-    }
+      width: calc(50% - 20px);     }
   }
   
   @media screen and (max-width: 768px) {

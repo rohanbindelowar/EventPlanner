@@ -1,20 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink, useHistory } from "react-router-dom";
 import "./styles.css";
 import Logo from "../../images/png/logo.png";
-import { NavLink } from "react-router-dom";
 
 export const Header = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+  //const history = useHistory();
+
+  const handleSearchSubmit = (event) => {
+    event.preventDefault();
+    if (searchQuery.trim() !== "") {
+     // history.push(`/search?query=${encodeURIComponent(searchQuery)}`);
+     console.log("everything okay") 
+     setSearchQuery("");
+    }
+  };
+
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      handleSearchSubmit(event);
+    }
+  };
+
   return (
     <div>
       <header>
-        <div class="container">
+        <div className="container">
           <nav>
             <ul>
-              <NavLink to={"EventPlanner/"} >
-                <img src={Logo} alt="logo" class="logo" />
-              </NavLink>
               <li>
-                <NavLink to={"EventPlanner/"} className='navItem'>Home</NavLink>
+                <NavLink to={"EventPlanner/"}>
+                  <img src={Logo} alt="Event Planner Logo" className="logo" />
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to={"EventPlanner/"} className="navItem">
+                  Home
+                </NavLink>
               </li>
               <li>
                 <NavLink to={"/EventPlanner/event"} className="navItem">
@@ -41,21 +67,23 @@ export const Header = () => {
                   Invitation
                 </NavLink>
               </li>
-
-              <form action="">
-                <input
-                  type="text"
-                  className="search"
-                  placeholder="Search Events..."
-                />
-              </form>
-              
-              <NavLink to={"EventPlanner/signup"} className="signIn-btn">
+              <li>
+              <form onSubmit={handleSearchSubmit} className="search-form">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={handleSearchChange}
+                onKeyDown={handleKeyPress}
+                placeholder="Search Events..."
+                className="search"
+              />
+            </form>
+           
+              </li>
+              <li> <NavLink to={"EventPlanner/signup"} className="signIn-btn">
               SignIn / SignUp
-              </NavLink>
-            
+            </NavLink></li>
             </ul>
-
             
           </nav>
         </div>
@@ -63,4 +91,5 @@ export const Header = () => {
     </div>
   );
 };
+
 export default Header;

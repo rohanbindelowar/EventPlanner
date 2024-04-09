@@ -11,6 +11,7 @@ import SignUp from "./Pages/SignIn/SignIn";
 import { Invitation } from "./Pages/Invitation/Invitation";
 import { Vendor } from "./Pages/Vendor/Vendor";
 import CreateEvent from "./Pages/HostEvent/EventHosting";
+import EventPlannerSignUp from "./Pages/BeEventPlanner";
 
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
         <Route path="/EventPlanner/about" element={<About/>}></Route>
         <Route path="/EventPlanner/invitation" element={<Invitation/>}></Route>
         <Route path="/EventPlanner/hosting-event" element={<CreateEvent/>}></Route>
+        <Route path="/EventPlanner/become-eventplanner" element={<EventPlannerSignUp/>}></Route>
       </Routes>
       {shouldRenderHeaderFooter() && <Footer/>}
     </div>

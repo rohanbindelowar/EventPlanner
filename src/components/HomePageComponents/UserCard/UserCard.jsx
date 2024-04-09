@@ -14,7 +14,7 @@ export const UserCard = () => {
               <p>Choose High quality Event Planner!</p>
             </div>
           </NavLink>
-          <NavLink to={"/EventPlanner/hosting-event"} className="user-card">
+          <NavLink to={"/EventPlanner/become-eventplanner"} className="user-card">
             <div>
               <h3>Join As an Event Planner</h3>
               <p>Secure Payment System</p>

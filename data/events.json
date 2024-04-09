@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Event 1",
+      "description": "Description of Event 1",
+      "date": "2022-12-31T23:59:59.999Z",
+      "location": "Location of Event 1",
+      "organizer": "6123456789abcdef01234567"
+    },
+    {
+      "title": "Event 2",
+      "description": "Description of Event 2",
+      "date": "2023-01-01T00:00:00.000Z",
+      "location": "Location of Event 2",
+      "organizer": "aabbccddeeff001122334455"
+    }
+  ]
+  

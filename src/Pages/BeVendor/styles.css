@@ -1,0 +1,50 @@
+.vendor-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+  
+  .vendor-signup-form {
+    width: 500px;
+    padding: 30px;
+    background-color: #c4c4c4d3;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 40px;
+  }
+  
+  .vendor-signup-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .vendor-signup-form input[type="text"],
+  .vendor-signup-form input[type="email"],
+  .vendor-signup-form input[type="tel"],
+  .vendor-signup-form input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .vendor-signup-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vendor-signup-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

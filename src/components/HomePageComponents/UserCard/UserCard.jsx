@@ -22,7 +22,7 @@ export const UserCard = () => {
             </div>
           </NavLink>
 
-          <NavLink to={"/EventPlanner/hosting-event"} className="user-card">
+          <NavLink to={"/EventPlanner/be-vendor/"} className="user-card">
             <div >
               <h3>Join As a Vendor</h3>
               <p>Secure Payment System</p>

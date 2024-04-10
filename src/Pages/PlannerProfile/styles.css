@@ -58,6 +58,8 @@
   }
   
   .event {
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
     border-radius: 10px;
     background-color: #f9f9f9;
@@ -68,7 +70,7 @@
   .event img {
     border: none;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin: 0 15px;
     box-shadow: none;
   }
   

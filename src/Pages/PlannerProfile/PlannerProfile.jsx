@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
-import image from "../../images/png/logo.png"
-import celebration from "../../images/png/celebration.png"
+import image from "../../images/png/logo.png";
+import celebration from "../../images/png/celebration.png";
 
 export const PlannerProfile = () => {
   return (
     <div className="container-planner">
       <div className="host">
-        <img src={image} alt="Emily Thompson" className="profile"/>
+        <img src={image} alt="Emily Thompson" className="profile" />
         <h2>Emily Thompson</h2>
         <p class="specialization">
           Specializes in weddings and corporate events
@@ -26,14 +26,20 @@ export const PlannerProfile = () => {
         <div class="events">
           <h3>Events Hosted by Emily</h3>
           <div class="event">
-            <img src={celebration} alt="Event 1 by Emily" />
-            <h4>Wedding Celebration</h4>
-            <p>
-              Wedding ceremony celebrations started as a tradition to “receive”
-              friends and family for the first time as a newlywed couple.
-            </p>
-            <p>Date: January 25, 2017</p>
-            <p>Location: Toronto,Canada</p>
+            <div>
+              {" "}
+              <img src={celebration} alt="Event 1 by Emily" />
+            </div>
+            <div>
+              <h4>Wedding Celebration</h4>
+              <p>
+                Wedding ceremony celebrations started as a tradition to
+                “receive” friends and family for the first time as a newlywed
+                couple.
+              </p>
+              <p>Date: January 25, 2017</p>
+              <p>Location: Toronto,Canada</p>
+            </div>
           </div>
         </div>
       </div>

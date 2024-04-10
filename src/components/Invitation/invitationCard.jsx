@@ -1,22 +1,26 @@
-import React from 'react'
-import image from '../../images/png/logo.png'
-import './styles.css'
+import React from "react";
+import image from "../../images/png/logo.png";
+import "./styles.css";
+import { NavLink } from "react-router-dom";
 export const InvitationCard = () => {
   return (
     <div>
-        <section class="invitation-cards">
-        <div class="invitation_card">
-          <div class="card">
+      <section class="invitation-cards">
+        <div class="invitation-card">
+          <NavLink to="/EventPlanner/invitation-view/" class="card-list">
+            <div>
             <img src={image} alt="" className="profile" />
+            </div>
             <div className="details">
-              <h3>wedding Party </h3>
+              <h3>Wedding Party </h3>
               <p>location: ...........</p>
               <p>Date: ../../....</p>
               <p>invitation Id: ...................</p>
             </div>
-          </div>
-          </div>
-          </section>
+          </NavLink>
+        </div>
+
+      </section>
     </div>
-  )
-}
+  );
+};

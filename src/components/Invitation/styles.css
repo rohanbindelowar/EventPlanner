@@ -1,52 +1,22 @@
-.invitation_card {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+.main {
+  height: 85vh;
+}
+.invitation-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.invitation-card {
+  border: 1px solid;
+  width: 50%;
   
-  .invitation-cards {
-    display: flex;
-    margin-top: 30px;
-  }
-  .profile {
-    display: flex;
-    width: 180px;
-    object-fit: cover;
-    border-radius: 40px;
-    margin: auto 0;
-  }
-  .card {
-    display: flex;
-    padding: 15px;
-    justify-content: space-around;
-    border-radius: 10px;
-    align-items: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 60%;
-    margin: auto;
-    margin-bottom: 23px;
-    transition: transform 0.3s ease;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-  
-  .invitation-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 1px 1px 10px gray;
-  }
-  
-  .invitaion-card h3 {
-    color: #333;
-    font-size: 24px;
-  }
-  
-  .planner-card p {
-    color: #666;
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  .main{
-    height: 81vh;
-  }
+  margin: 10px;
+}
+.card-list{
+display: flex;
+justify-content: space-around;
+text-decoration: none;
+color: black;
+}
+

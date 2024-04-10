@@ -8,7 +8,7 @@ export const PlannerCard = () => {
     <div>
       <section class="event-cards">
         <div class="container_card">
-          <NavLink to="/EventPlanner/plannerProfile/" className="planner-card">
+          <NavLink to="/EventPlanner/planner-profile/" className="planner-card">
             <div>
               <img src={image} alt="" className="profile" />
             </div>

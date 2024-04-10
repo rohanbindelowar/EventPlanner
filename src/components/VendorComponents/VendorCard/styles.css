@@ -19,6 +19,7 @@
 }
 .vendor-card {
   display: flex;
+  text-decoration: none;
   padding: 15px;
   justify-content: space-between;
   border-radius: 10px;

@@ -1,0 +1,69 @@
+.container_card {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .event-cards {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .event-card {
+    text-decoration: none;
+    background-image: url(../../../images/png/celebration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-top: 0;
+    border-radius: 10px;
+    text-align: right;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); 
+    height: 150px;
+    margin-bottom: 23px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .event-card {
+      width: calc(50% - 20px); /* Two cards in a row for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .event-card {
+      width: calc(50% - 20px); /* Two cards in a row for even smaller screens */
+    }
+    
+    .event-cards {
+      justify-content: center; /* Center align the cards on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .event-card {
+      width: calc(100% - 20px); /* One card per row for the smallest screens */
+    }
+  }
+  
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px gray;
+  }
+  
+  .event-card h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .event-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }

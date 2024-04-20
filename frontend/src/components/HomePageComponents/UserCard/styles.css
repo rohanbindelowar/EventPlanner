@@ -1,0 +1,68 @@
+.container_card {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+      }
+  
+  .user-card {
+    background-image: url(../../../images/png/logo-black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 0;
+    border-radius: 10px;
+    text-align: right;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px);
+    margin-bottom: 23px;
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .user-card {
+      width: calc(50% - 20px);     }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .user-card {
+      width: calc(50% - 20px); /* Two cards in a row for even smaller screens */
+    }
+    
+    .user-cards {
+      justify-content: center; /* Center align the cards on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .user-card {
+      width: calc(100% - 20px); /* One card per row for the smallest screens */
+    }
+  }
+  
+  
+  .user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px gray;
+  }
+  
+  .user-card h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .user-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }

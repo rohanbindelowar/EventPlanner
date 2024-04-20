@@ -1,0 +1,67 @@
+[
+  {
+    "fullName": "John Doe",
+    "email": "john@example.com",
+    "phoneNumber": "123-456-7890",
+    "address": "123 Main St, Anytown, USA",
+    "profilePicture": "",
+    "companyName": "Floral Designs",
+    "jobTitle": "Florist",
+    "yearsOfExperience": 5,
+    "specialties": "Wedding Flowers",
+    "servicesOffered": "Floral arrangements, bouquets",
+    "certifications": "Certified Florist"
+  },
+  {
+    "fullName": "Emily Smith",
+    "email": "emily@example.com",
+    "phoneNumber": "234-567-8901",
+    "address": "456 Elm St, Othertown, USA",
+    "profilePicture": "",
+    "companyName": "Catering Delights",
+    "jobTitle": "Chef",
+    "yearsOfExperience": 8,
+    "specialties": "Catering",
+    "servicesOffered": "Catering services, menu planning",
+    "certifications": "Culinary Certification"
+  },
+  {
+    "fullName": "Sarah Johnson",
+    "email": "sarah@example.com",
+    "phoneNumber": "345-678-9012",
+    "address": "789 Oak St, Anycity, USA",
+    "profilePicture": "",
+    "companyName": "Music Magic",
+    "jobTitle": "Musician",
+    "yearsOfExperience": 6,
+    "specialties": "Live Music",
+    "servicesOffered": "Live music performances, DJ services",
+    "certifications": "Professional Musician"
+  },
+  {
+    "fullName": "Michael Brown",
+    "email": "michael@example.com",
+    "phoneNumber": "456-789-0123",
+    "address": "321 Pine St, Anothercity, USA",
+    "profilePicture": "",
+    "companyName": "Photo Perfect",
+    "jobTitle": "Photographer",
+    "yearsOfExperience": 4,
+    "specialties": "Event Photography",
+    "servicesOffered": "Photography services, photo booth",
+    "certifications": "Certified Photographer"
+  },
+  {
+    "fullName": "Jessica Wilson",
+    "email": "jessica@example.com",
+    "phoneNumber": "567-890-1234",
+    "address": "654 Maple St, Yetanothercity, USA",
+    "profilePicture": "",
+    "companyName": "Rentals R Us",
+    "jobTitle": "Rental Coordinator",
+    "yearsOfExperience": 7,
+    "specialties": "Event Rentals",
+    "servicesOffered": "Rental equipment, furniture",
+    "certifications": "Event Rental Specialist"
+  }
+]

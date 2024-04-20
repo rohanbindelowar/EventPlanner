@@ -1,0 +1,51 @@
+.search-autocomplete-container {
+    margin-left: 30px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    padding: 3px 10px;
+    background: #f1f1f1;
+    
+  }
+
+  .drop-down{
+    position: fixed;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 20px;
+
+    
+    
+    
+  }
+
+
+  .event-items{
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    
+
+  }
+
+  .event-items:hover{
+    background-color: #adadad;
+  }
+
+  .event-link{
+    text-decoration: none;  
+    color: rgb(68, 67, 67);
+    width: 100%;
+
+
+  }
+
+  .event-link:hover{
+    color: black;
+    
+    
+  }

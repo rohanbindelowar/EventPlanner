@@ -1,0 +1,28 @@
+.main {
+  height: 85vh;
+}
+.invitation-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.invitation-card {
+  width: 40%;
+  margin: 10px;
+}
+.card-list {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  background: #c9c9c9;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.card-list:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 10px gray;
+}

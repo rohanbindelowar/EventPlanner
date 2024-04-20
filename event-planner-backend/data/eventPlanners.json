@@ -1,0 +1,67 @@
+[
+  {
+    "fullName": "Alice Smith",
+    "email": "alice@example.com",
+    "phoneNumber": "123-456-7890",
+    "address": "123 Main St, Anytown, USA",
+    "profilePicture": "",
+    "companyName": "Event Co.",
+    "jobTitle": "Event Planner",
+    "yearsOfExperience": 5,
+    "specialties": "Weddings",
+    "servicesOffered": "Full-service event planning",
+    "certifications": "Certified Wedding Planner"
+  },
+  {
+    "fullName": "Bob Johnson",
+    "email": "bob@example.com",
+    "phoneNumber": "234-567-8901",
+    "address": "456 Elm St, Othertown, USA",
+    "profilePicture": "",
+    "companyName": "Celebration Planners",
+    "jobTitle": "Senior Event Planner",
+    "yearsOfExperience": 8,
+    "specialties": "Corporate Events",
+    "servicesOffered": "Event design, coordination",
+    "certifications": "Event Management Certification"
+  },
+  {
+    "fullName": "Eve Williams",
+    "email": "eve@example.com",
+    "phoneNumber": "345-678-9012",
+    "address": "789 Oak St, Anycity, USA",
+    "profilePicture": "",
+    "companyName": "Elegant Events",
+    "jobTitle": "Lead Event Coordinator",
+    "yearsOfExperience": 6,
+    "specialties": "Social Events",
+    "servicesOffered": "Event planning, management",
+    "certifications": "Event Planning Professional"
+  },
+  {
+    "fullName": "David Brown",
+    "email": "david@example.com",
+    "phoneNumber": "456-789-0123",
+    "address": "321 Pine St, Anothercity, USA",
+    "profilePicture": "",
+    "companyName": "Dreamy Events",
+    "jobTitle": "Event Designer",
+    "yearsOfExperience": 4,
+    "specialties": "Destination Weddings",
+    "servicesOffered": "Event styling, decor",
+    "certifications": "Certified Event Designer"
+  },
+  {
+    "fullName": "Grace Wilson",
+    "email": "grace@example.com",
+    "phoneNumber": "567-890-1234",
+    "address": "654 Maple St, Yetanothercity, USA",
+    "profilePicture": "",
+    "companyName": "Graceful Gatherings",
+    "jobTitle": "Event Producer",
+    "yearsOfExperience": 7,
+    "specialties": "Large-scale Events",
+    "servicesOffered": "Event production, management",
+    "certifications": "Event Management Professional"
+  }
+]

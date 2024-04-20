@@ -1,0 +1,43 @@
+.container-about{
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.name,
+.email,
+.subject, .message {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.submit-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: auto auto;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 30%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.submit:hover {
+    background-color: #45a049;
+}
